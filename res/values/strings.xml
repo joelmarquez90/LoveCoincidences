@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Coincidencias\nAmorosas</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="action_share">Compartir</string>
+    <string name="hello_world">Hello world!</string>
+
+	<string name="txtName1">Ingresa primer nombre:</string>
+	<string name="txtName2">Ingresa segundo nombre:</string>
+	<string name="btnFind">¡Encontrar porcentaje!</string>   
+	<string name="lblTitle">Love is in the air</string>     
+	<string name="btnShare">Compartir!</string>        
+	    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ed1c24</color>
+    <color name="whiteRed">#f36368</color>
+    <color name="whiteWhiteRed">#f8aaad</color>
+    <color name="blackRed">#af0e14</color>
+</resources>

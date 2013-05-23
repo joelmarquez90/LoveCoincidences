@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/red_background"
+    tools:context=".MainActivity" >
+    
+	<TextView 
+	android:id="@+id/lblTitle"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dp"
+	android:layout_centerHorizontal="true"
+	android:textSize="26sp"
+	android:textStyle="bold"
+	android:textColor="@color/white"
+	android:text="@string/lblTitle"/>
+    
+	<EditText
+	android:id="@+id/txtName1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/lblTitle"
+	android:layout_marginTop="20dp"
+	android:inputType="textPersonName"
+	android:textSize="18sp"
+	android:textColor="@color/white"
+	android:textStyle="bold"
+	android:hint="@string/txtName1"
+	android:textColorHint="@color/whiteWhiteRed"/>    
+
+	<EditText 
+	android:id="@+id/txtName2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/txtName1"
+	android:layout_marginTop="20dp"
+	android:inputType="textPersonName"
+	android:textSize="18sp"
+	android:textColor="@color/white"
+	android:textStyle="bold"
+	android:hint="@string/txtName2"
+	android:textColorHint="@color/whiteWhiteRed"/>
+	
+	<Button
+	android:id="@+id/btnFind"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/txtName2"
+	android:layout_marginTop="20dp"
+	android:layout_centerHorizontal="true"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:textColor="@color/white"
+	android:text="@string/btnFind"/>
+	
+	<TextView 
+	android:id="@+id/lblPercentData"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_above="@+id/lblPercent"
+	android:layout_marginBottom="30dp"
+	android:layout_centerHorizontal="true"
+	android:textSize="60sp"
+	android:textColor="@color/white"
+	android:textStyle="bold"
+	android:text="36%"/>
+	
+	<TextView 
+	android:id="@+id/lblPercent"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_centerHorizontal="true"
+	android:textSize="22sp"
+	android:textColor="@color/white"
+	android:textStyle="bold"
+	android:text="Muy bueno!"/>
+	
+</RelativeLayout>
